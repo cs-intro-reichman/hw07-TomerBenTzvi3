@@ -1,12 +1,9 @@
 /** Computes the binomial(n,k) function. */
 public class Binomial {	
     public static void main(String[] args) {
-		int n = Integer.parseInt(args[0]);
-		int k = Integer.parseInt(args[1]);
 		System.out.println(binomial1(Integer.parseInt(args[0]), Integer.parseInt(args[1])));
 		System.out.println(binomial(Integer.parseInt(args[0]), Integer.parseInt(args[1])));
 	}
-
 	// Computes the Binomial function, basic version.
 	public static int binomial1(int n, int k) { 
 		if (k > n) return 0;
